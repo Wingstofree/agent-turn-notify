@@ -1,0 +1,8 @@
+# 跨平台一致性：脚本必须是 LF，否则 macOS/Linux 上 bash 会因 CRLF 报错。
+# notify.ps1 的 UTF-8 BOM 属于内容字节，不受换行转换影响。
+* text=auto eol=lf
+*.ps1 text eol=lf
+*.sh text eol=lf
+*.mjs text eol=lf
+*.md text eol=lf
+*.log text eol=lf
